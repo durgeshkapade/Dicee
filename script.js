@@ -28,14 +28,14 @@ updateDice(".p2", p2.toString())
 
 
 if (p1 == p2) {
-    document.querySelector("h1").innerText = "Tie 🏳️";
+    $("h1").text("Tie 🏳️");
 }
 else {
     if (p1 > p2) {
-        document.querySelector("h1").innerText = "Player 1 wins 🚩";
+        $("h1").text("Player 1 wins 🚩)";
     }
     else {
-        document.querySelector("h1").innerText = "Player 2 wins 🚩";
+        $("h1").text("Player 2 wins 🚩)";
     }
 }
 
