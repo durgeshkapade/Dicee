@@ -16,7 +16,7 @@ var faces = [
 ]
 
 function updateDice(p, val) {
-    document.querySelector(p).setAttribute("src", faces[val])
+    $(p).setAttribute("src", faces[val]);
 }
 
 
